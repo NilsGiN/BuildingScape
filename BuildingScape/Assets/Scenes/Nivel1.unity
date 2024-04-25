@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 48141288}
   - component: {fileID: 48141287}
   m_Layer: 0
-  m_Name: we
+  m_Name: sgtescena
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -457,13 +457,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 538866741}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.16, z: -1.89}
+  m_LocalRotation: {x: 0.024720937, y: -0, z: -0, w: 0.9996944}
+  m_LocalPosition: {x: 0, y: 2.01, z: -3.33}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 238124080}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 2.833, y: 0, z: 0}
 --- !u!81 &538866743
 AudioListener:
   m_ObjectHideFlags: 0
@@ -529,7 +529,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1801809275}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 100066, guid: c6d9aa70eb953b746a0ad70564b5d62d, type: 3}
       propertyPath: m_Name
@@ -609,7 +609,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1801809275}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 100066, guid: c6d9aa70eb953b746a0ad70564b5d62d, type: 3}
       propertyPath: m_Name
@@ -709,11 +709,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.7085025, y: 0.9450985, z: 0.7255644}
   m_Center: {x: 0.0014794589, y: 0.43232957, z: 0.010142016}
---- !u!4 &960112260 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400066, guid: c6d9aa70eb953b746a0ad70564b5d62d, type: 3}
-  m_PrefabInstance: {fileID: 777725119}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &998477230
 GameObject:
   m_ObjectHideFlags: 0
@@ -1031,7 +1026,7 @@ GameObject:
   - component: {fileID: 1801809275}
   - component: {fileID: 1801809274}
   m_Layer: 0
-  m_Name: Nivel1
+  m_Name: ControladorEscena1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1049,9 +1044,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9f6eaa78dbf7f54b8838e5ca22d7b32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jugador: Jugador # 1
   objetivo: 'Monstruos eliminados: '
   total: 0
+  cubooculto: {fileID: 48141286}
 --- !u!4 &1801809275
 Transform:
   m_ObjectHideFlags: 0
@@ -1157,19 +1152,11 @@ Transform:
   - {fileID: 2370955606965655462}
   - {fileID: 998477234}
   - {fileID: 259940535}
-  - {fileID: 960112260}
-  - {fileID: 1960567647}
-  - {fileID: 238124080}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1960567646 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100066, guid: c6d9aa70eb953b746a0ad70564b5d62d, type: 3}
-  m_PrefabInstance: {fileID: 687219889}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1960567647 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400066, guid: c6d9aa70eb953b746a0ad70564b5d62d, type: 3}
   m_PrefabInstance: {fileID: 687219889}
   m_PrefabAsset: {fileID: 0}
 --- !u!65 &1960567648
@@ -1199,11 +1186,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1801809275}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 100166, guid: 134b5d79d367cd24288406aa682d36d3, type: 3}
       propertyPath: m_Name
-      value: TT_demo_female
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 100166, guid: 134b5d79d367cd24288406aa682d36d3, type: 3}
       propertyPath: m_TagString
@@ -35431,3 +35418,6 @@ SceneRoots:
   m_Roots:
   - {fileID: 1801809275}
   - {fileID: 48141291}
+  - {fileID: 777725119}
+  - {fileID: 687219889}
+  - {fileID: 2128135814}
