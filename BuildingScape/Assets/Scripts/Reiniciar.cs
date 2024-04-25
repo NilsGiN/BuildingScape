@@ -23,7 +23,7 @@ public class Reiniciar : MonoBehaviour
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
        }
 
-       if (total == 2)
+       if (total == 4)
         {
             cubooculto.SetActive(true);
         }
