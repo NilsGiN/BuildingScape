@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571328, b: 0.3069217, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -771,7 +771,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6b83f296ac7f64ab703a205b5214fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 30
+  speed: 50
   rotationSpeed: 150
 --- !u!54 &306227846
 Rigidbody:
@@ -3946,7 +3946,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400066, guid: c6d9aa70eb953b746a0ad70564b5d62d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -226
+      value: -125.7
       objectReference: {fileID: 0}
     - target: {fileID: 400066, guid: c6d9aa70eb953b746a0ad70564b5d62d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3954,7 +3954,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400066, guid: c6d9aa70eb953b746a0ad70564b5d62d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 333
+      value: 95.1
       objectReference: {fileID: 0}
     - target: {fileID: 400066, guid: c6d9aa70eb953b746a0ad70564b5d62d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4336,15 +4336,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400066, guid: c6d9aa70eb953b746a0ad70564b5d62d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -212.3
+      value: -63
       objectReference: {fileID: 0}
     - target: {fileID: 400066, guid: c6d9aa70eb953b746a0ad70564b5d62d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400066, guid: c6d9aa70eb953b746a0ad70564b5d62d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -28.7
+      value: 63
       objectReference: {fileID: 0}
     - target: {fileID: 400066, guid: c6d9aa70eb953b746a0ad70564b5d62d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4926,7 +4926,7 @@ GameObject:
   - component: {fileID: 2050293893}
   - component: {fileID: 2050293892}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: sgtescena
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4986,7 +4986,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 67443a0ffe04d284b93ff025d69a3a27, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5025,7 +5025,7 @@ Transform:
   m_GameObject: {fileID: 2050293891}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -65.5, y: 4.9, z: 176.2}
+  m_LocalPosition: {x: -65.5, y: 4, z: 168.17}
   m_LocalScale: {x: 5.1189, y: 5.1189, z: 5.1189}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5511,7 +5511,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400066, guid: c6d9aa70eb953b746a0ad70564b5d62d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -189
+      value: -13.3
       objectReference: {fileID: 0}
     - target: {fileID: 400066, guid: c6d9aa70eb953b746a0ad70564b5d62d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5519,7 +5519,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400066, guid: c6d9aa70eb953b746a0ad70564b5d62d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 129.2
+      value: 140
       objectReference: {fileID: 0}
     - target: {fileID: 400066, guid: c6d9aa70eb953b746a0ad70564b5d62d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -39141,8 +39141,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8619338779668656210}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.00000016292068}
-  m_LocalPosition: {x: -180.2, y: 0, z: 22}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -96.6, y: 0, z: 22}
   m_LocalScale: {x: 6, y: 6, z: 6}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -39601,7 +39601,7 @@ GameObject:
   - component: {fileID: 306227845}
   - component: {fileID: 8619338779668656211}
   m_Layer: 0
-  m_Name: TT_demo_police
+  m_Name: Jugador
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -43834,10 +43834,10 @@ Transform:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
+  - {fileID: 1413908234}
+  - {fileID: 2050293896}
   - {fileID: 1807699268}
   - {fileID: 2132874485}
   - {fileID: 1572160726}
   - {fileID: 1697475371}
   - {fileID: 8619338779668360242}
-  - {fileID: 2050293896}
-  - {fileID: 1413908234}

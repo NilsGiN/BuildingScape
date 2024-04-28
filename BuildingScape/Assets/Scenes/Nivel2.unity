@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.25330132, g: 0.21698837, b: 0.2331919, a: 1}
+  m_IndirectSpecularColor: {r: 0.25330302, g: 0.21698889, b: 0.23319246, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2179,7 +2179,7 @@ GameObject:
   - component: {fileID: 465595151}
   - component: {fileID: 465595150}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: sgtescena
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2239,7 +2239,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 67443a0ffe04d284b93ff025d69a3a27, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9099,7 +9099,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef6b83f296ac7f64ab703a205b5214fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 3
   rotationSpeed: 100
 --- !u!54 &2145582989
 Rigidbody:
@@ -20550,10 +20550,10 @@ BoxCollider:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 465595154}
   - {fileID: 96576430}
-  - {fileID: 1159202511}
+  - {fileID: 465595154}
   - {fileID: 681545567}
   - {fileID: 132147991}
   - {fileID: 507544426}
   - {fileID: 1035714571}
+  - {fileID: 1159202511}
